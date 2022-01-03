@@ -8,9 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		880A9B7A278320AF007EC49E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880A9B79278320AF007EC49E /* AppDelegate.swift */; };
-		880A9B7C278320AF007EC49E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880A9B7B278320AF007EC49E /* SceneDelegate.swift */; };
 		880A9B7E278320AF007EC49E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880A9B7D278320AF007EC49E /* ViewController.swift */; };
-		880A9B81278320AF007EC49E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880A9B7F278320AF007EC49E /* Main.storyboard */; };
 		880A9B83278320B0007EC49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880A9B82278320B0007EC49E /* Assets.xcassets */; };
 		880A9B86278320B0007EC49E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880A9B84278320B0007EC49E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -18,9 +16,7 @@
 /* Begin PBXFileReference section */
 		880A9B76278320AF007EC49E /* ViewCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		880A9B79278320AF007EC49E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		880A9B7B278320AF007EC49E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		880A9B7D278320AF007EC49E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		880A9B80278320AF007EC49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		880A9B82278320B0007EC49E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		880A9B85278320B0007EC49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		880A9B87278320B0007EC49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,9 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				880A9B79278320AF007EC49E /* AppDelegate.swift */,
-				880A9B7B278320AF007EC49E /* SceneDelegate.swift */,
 				880A9B7D278320AF007EC49E /* ViewController.swift */,
-				880A9B7F278320AF007EC49E /* Main.storyboard */,
 				880A9B82278320B0007EC49E /* Assets.xcassets */,
 				880A9B84278320B0007EC49E /* LaunchScreen.storyboard */,
 				880A9B87278320B0007EC49E /* Info.plist */,
@@ -126,7 +120,6 @@
 			files = (
 				880A9B86278320B0007EC49E /* LaunchScreen.storyboard in Resources */,
 				880A9B83278320B0007EC49E /* Assets.xcassets in Resources */,
-				880A9B81278320AF007EC49E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,21 +132,12 @@
 			files = (
 				880A9B7E278320AF007EC49E /* ViewController.swift in Sources */,
 				880A9B7A278320AF007EC49E /* AppDelegate.swift in Sources */,
-				880A9B7C278320AF007EC49E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		880A9B7F278320AF007EC49E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				880A9B80278320AF007EC49E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		880A9B84278320B0007EC49E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +280,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rayanaprata.ViewCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.rayanaprata.ViewCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
