@@ -9,11 +9,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let screen = ViewControllerScreen()
+    
     // método que carrega a interface
     override func loadView() {
-        let redView = UIView(frame: UIScreen.main.bounds)
-        redView.backgroundColor = .red
-        self.view = redView
+        self.view = screen
     }
     
     override func viewDidLoad() {

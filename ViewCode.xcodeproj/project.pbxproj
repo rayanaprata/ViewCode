@@ -11,6 +11,7 @@
 		880A9B7E278320AF007EC49E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880A9B7D278320AF007EC49E /* ViewController.swift */; };
 		880A9B83278320B0007EC49E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880A9B82278320B0007EC49E /* Assets.xcassets */; };
 		880A9B86278320B0007EC49E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880A9B84278320B0007EC49E /* LaunchScreen.storyboard */; };
+		880A9B8E27832530007EC49E /* ViewControllerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880A9B8D27832530007EC49E /* ViewControllerScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		880A9B82278320B0007EC49E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		880A9B85278320B0007EC49E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		880A9B87278320B0007EC49E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880A9B8D27832530007EC49E /* ViewControllerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				880A9B79278320AF007EC49E /* AppDelegate.swift */,
 				880A9B7D278320AF007EC49E /* ViewController.swift */,
+				880A9B8D27832530007EC49E /* ViewControllerScreen.swift */,
 				880A9B82278320B0007EC49E /* Assets.xcassets */,
 				880A9B84278320B0007EC49E /* LaunchScreen.storyboard */,
 				880A9B87278320B0007EC49E /* Info.plist */,
@@ -131,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				880A9B7E278320AF007EC49E /* ViewController.swift in Sources */,
+				880A9B8E27832530007EC49E /* ViewControllerScreen.swift in Sources */,
 				880A9B7A278320AF007EC49E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
